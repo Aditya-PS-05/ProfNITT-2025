@@ -20,16 +20,31 @@ const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
       },
+      outline: {
+        white_0: "border-white-0 border-2 border-solid text-white-0",
+      },
+      fill: {
+        black_900_51: "bg-black-900_51",
+        deep_purple_100: "bg-deep_purple-100 text-blue_gray-900_03",
+      },
+      gradient: {
+        indigo_300_indigo_100: "bg-gradient text-blue_gray-900_02",
+      },
       size: {
         default: "h-9 px-4 py-2",
         sm: "h-8 rounded-md px-3 text-xs",
         lg: "h-10 rounded-md px-8",
         icon: "h-9 w-9",
       },
+      shape: {
+        circle: "rounded-[50%]",
+        round: "rounded-[24px]",
+      },
     },
     defaultVariants: {
       variant: "default",
       size: "default",
+
     },
   }
 )

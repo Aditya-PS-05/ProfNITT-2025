@@ -33,7 +33,7 @@ export default function LoginModal() {
         </DialogHeader>
         <Button variant="outline" onClick={handleGoogleLogin}>
           <Image
-            src="/images/google.png"
+            src="google.png"
             className=" mr-4"
             width={25}
             height={25}

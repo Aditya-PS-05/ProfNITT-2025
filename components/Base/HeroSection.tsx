@@ -20,7 +20,7 @@ export default function HeroSection() {
 
       <div className="mt-12 w-full max-w-5xl flex justify-center">
         <Image
-          src="/images/homepage/homepage-bg.svg"
+          src="homepage/homepage-bg.svg"
           width={100}
           height={100}
           alt="Illustration"

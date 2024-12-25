@@ -14,7 +14,7 @@ export default function UserReviews() {
           </p>
           <div className="mt-4">
             <Image
-              src="/images/user1.png"
+              src="user1.png"
               width={100}
               height={100}
               alt="User 1"
@@ -29,7 +29,7 @@ export default function UserReviews() {
           </p>
           <div className="mt-4">
             <Image
-              src="/images/user2.png"
+              src="user2.png"
               width={100}
               height={100}
               alt="User 2"
