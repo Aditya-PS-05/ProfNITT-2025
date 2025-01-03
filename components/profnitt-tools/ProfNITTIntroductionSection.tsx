@@ -41,17 +41,15 @@ export default function ProfNITTIntroductionSection() {
           </div>
           
           <div className="ml-[46px] mr-[58px] flex items-center justify-between gap-5 md:mx-0 md:flex-col">
-            <div className="relative h-[556px] w-[40%] rotate-[-180deg] rounded-bl-[240px] rounded-br-[100px] rounded-tl-[100px] rounded-tr-[240px] md:w-full">
-              <div className="absolute bottom-0 left-0 top-0 my-auto h-max w-[60%] rotate-[-5deg] rounded-bl-[156px] rounded-br-[100px] rounded-tl-[100px] rounded-tr-[156px]">
-                <div className="relative h-[544px] rounded-bl-[38px] rounded-br-[36px] rounded-tl-[38px] rounded-tr-[38px] bg-blue-gray-900 md:h-auto">
+            
                   <Img
-                    src="img_buttons.svg"
+                    src="img_iphones.svg"
                     width={276}
                     height={144}
                     alt="Buttons"
-                    className="mt-[78px] h-[144px] flex-1 rounded-[72px]"
+                    className="mt-[78px] h-[500px] flex-1 rounded-[72px]"
                   />
-                  <div className="absolute bottom-0 left-0 right-0 top-0 m-auto h-[536px] flex-1 content-center px-1 md:h-auto">
+                  {/* <div className="absolute bottom-0 left-0 right-0 top-0 m-auto h-[536px] flex-1 content-center px-1 md:h-auto">
                     <Img
                       src="img_screen_replace.png"
                       width={286}
@@ -60,10 +58,8 @@ export default function ProfNITTIntroductionSection() {
                       className="h-[536px] flex-1 rounded-bl-[142px] rounded-br-[100px] rounded-tl-[100px] rounded-tr-[142px] object-cover"
                     />
                     <div className="absolute left-[31%] top-[8.69px] m-auto h-[26px] w-[36%] rounded-[12px] bg-gray-900" />
-                  </div>
-                </div>
-              </div>
-            </div>
+                  </div> */}
+
             
             <div className="flex w-[48%] flex-col items-start gap-14 md:w-full sm:gap-7">
               <div className="flex flex-col items-start gap-1 self-stretch">
@@ -84,7 +80,7 @@ export default function ProfNITTIntroductionSection() {
               <Button
                 shape="round"
                 // colorScheme="indigo_300_indigo_100"
-                className="w-full min-w-[214px] max-w-[214px] rounded-[24px] px-[34px] font-bold sm:px-5"
+                className="w-full min-w-[214px] max-w-[214px] rounded-[24px] px-[34px] font-bold sm:px-5 bg-gradient"
               >
                 LET'S GET IN TOUCH
               </Button>

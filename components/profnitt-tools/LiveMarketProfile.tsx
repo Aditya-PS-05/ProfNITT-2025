@@ -20,7 +20,7 @@ export default function LiveMarketProfile({
   return (
     <div 
       {...props}
-      className={`${props.className} flex flex-col items-center w-[24%] md:w-full p-[22px] sm:p-5 bg-gradient2 rounded-[40px]`}
+      className={`${props.className} flex flex-col items-center w-[24%] md:w-full p-[22px] sm:p-5 rounded-[40px] bg-gradient6 mb-20`}
     >
       <div className="mx-5 self-stretch rounded-[100px] bg-black-900_51">
         <Img

@@ -79,7 +79,8 @@
     --space-6xl: 46px;
     --space-7xl: 64px;
   }
-
+  [type="text"],
+  input:where(:not([type])),
   [type="email"],
   [type="url"],
   [type="password"],

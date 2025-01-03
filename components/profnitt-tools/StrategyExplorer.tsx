@@ -17,8 +17,8 @@ export default function StrategyExplorer({ stepNumber = "01", exploreText = "Exp
           </Heading>
         </div>
       </div>
-      <div>
-        <Heading size="headings" as="h4" className="self-end text-[24px] font-bold text-white-0">
+      <div className="ml-12">
+        <Heading size="headings" as="h4" className="text-[24px] font-bold text-white-0 m-auto">
           {exploreText}
         </Heading>
       </div>

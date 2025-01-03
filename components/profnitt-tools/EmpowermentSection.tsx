@@ -22,7 +22,7 @@ export default function EmpowermentSection() {
             // variant="fill"
             shape="circle"
             // colorScheme="black_900_51"
-            className="relative mt-[-50px] w-[100px] rounded-[50px] px-5"
+            className="relative mt-[-50px] w-[80px] h-[80px] rounded-[50%] px-5 bg-gradient1"
           >
             <Img src="img_checkmark.svg" width={60} height={60} />
           </Button>

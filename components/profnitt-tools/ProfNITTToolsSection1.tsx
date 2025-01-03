@@ -51,7 +51,7 @@ export default function ProfNIITToolsSection1() {
               <span className="font-bold">&nbsp;</span>
               <span className="font-thin">Tools</span>
             </Text>
-            <div className="absolute bottom-[-1px] left-0 right-0 mx-auto flex">
+            {/* <div className="absolute bottom-[-1px] left-0 right-0 mx-auto flex">
               <Img
                 src="img_arrow_right.svg"
                 width={100}
@@ -59,7 +59,7 @@ export default function ProfNIITToolsSection1() {
                 alt="Arrowright"
                 className="h-[100px] w-[26%] object-contain"
               />
-            </div>
+            </div> */}
           </div>
           <Text
             size="textlg"
@@ -73,7 +73,7 @@ export default function ProfNIITToolsSection1() {
           </Text>
         </div>
         <div className="mx-auto w-full max-w-[1274px] md:px-5">
-          <div className="flex gap-2.5 md:flex-col">
+          <div className="flex gap-4 md:flex-col">
             <Suspense fallback={<div>Loading feed...</div>}>
               {marketOptionsList.map((d, index) => (
                 <LiveMarketProfile {...d} key={"listlivemarket" + index} />

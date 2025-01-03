@@ -113,8 +113,9 @@ theme: {
         gradient1: "linear-gradient(251deg, #c0b7e7,#8076af)",
         gradient2: "radial-gradient(to right, #423c5f,#201e2d)",
         gradient3: "radial-gradient(85deg, #393356f2,#201e2d)",
-        gradient4: "radial-gradient(180deg, #40395e,#201e2d)",
-        gradient5: "linear-gradient(270deg, #343045,#c0b7e7,#8076af,#343045)"
+        gradient4: "radial-gradient(circle, #403A5F 0%, #211E2E 100%)",
+        gradient6: "radial-gradient(circle, #433D60 0%, #211E2E 100%)",
+        gradient5: "linear-gradient(270deg, #343045, #c0b7e7, #8076af, #343045)"
       },
       fontFamily: {
         poppins: "Poppins",
