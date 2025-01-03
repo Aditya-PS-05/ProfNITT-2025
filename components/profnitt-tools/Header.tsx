@@ -9,7 +9,7 @@ import LoginModal from "../auth/LoginModel";
 export default function Header({ user }: { user: CustomUser | null }) {
   return (
     <div
-      className={`flex md:flex-col justify-between items-start ml-11 mr-[86px] gap-5 md:mx-0 border-2 border-red-500`}
+      className={`flex md:flex-col justify-between items-start ml-11 mr-[86px] gap-5 md:mx-0`}
     >
       <Img
         src="img_image.png"
@@ -53,18 +53,26 @@ export default function Header({ user }: { user: CustomUser | null }) {
           <Button
             variant="outline"
             shape="round"
-            className="w-full min-w-[154px] max-w-[154px] rounded-[24px] !border-2 px-8 font-bold sm:px-5"
+            className="w-full min-w-[154px] max-w-[154px] rounded-[24px] px-8 font-bold sm:px-5"
           >
             <p className="text-white-0">SIGN UP</p>
           </Button>
-          <Button
+          {/* <Button
             shape="round"
             // colorScheme="indigo_300_indigo_100"
             className="w-full min-w-[154px] max-w-[154px] rounded-[24px] px-[34px] font-bold sm:px-5 bg-gradient-to-r from-indigo-300 to-indigo-100"
           >
-            Login
-          </Button>
-          {!user ? <LoginModal /> : <Link href="/dashboard">Dashboard</Link>}
+            Login */}
+            {!user ? <LoginModal /> : 
+            
+            <Button
+            shape="round"
+            // colorScheme="indigo_300_indigo_100"
+            className="w-full min-w-[154px] max-w-[154px] rounded-[24px] px-[34px] font-bold sm:px-5 bg-gradient-to-r from-indigo-300 to-indigo-100"
+            >
+              <Link href="/dashboard">Dashboard</Link>  
+            </Button>}
+          {/* </Button> */}
         </div>
       </div>
     </div>

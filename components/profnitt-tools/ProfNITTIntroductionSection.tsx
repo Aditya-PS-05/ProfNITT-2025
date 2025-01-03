@@ -11,7 +11,7 @@ export default function ProfNITTIntroductionSection() {
           <Img src="img_vector_8.png" width={1440} height={210} alt="Vectoreight" className="h-[210px] object-cover" />
         </div>
         <div className="absolute bottom-0 left-0 right-0 top-0 m-auto flex h-max flex-1 flex-col gap-10 px-[52px] md:px-5">
-          <div className="ml-8 flex items-start justify-between gap-5 md:ml-0 md:flex-col">
+          <div className="ml-8 flex items-start justify-between md:ml-0 md:flex-col">
             <div className="flex flex-col items-start gap-2.5">
               <Heading as="h2" className="text-[36px] font-bold text-white-0 md:text-[34px] sm:text-[32px]">
                 INTRODUCTION

@@ -18,7 +18,7 @@ export default function ProfNIITToolsSection() {
             <Text
               size="text4xl"
               as="p"
-              className="relative z-[1] mt-[102px] !font-ppsupplymono text-[35px] font-normal tracking-[-1.05px] md:text-[33px] sm:text-[31px]"
+              className="ml-[-107px] z-[1] mt-[122px] !font-ppsupplymono text-[35px] font-normal tracking-[-1.05px] md:text-[33px] sm:text-[31px]"
             >
               Finance and Investments club of NIT Trichy
             </Text>
@@ -32,7 +32,7 @@ export default function ProfNIITToolsSection() {
               />
             </div>
           </div>
-          <div className="absolute bottom-[10%] left-0 right-0 z-[2] mx-auto flex flex-1 flex-col gap-[120px] md:gap-[90px] sm:gap-[60px]">
+          <div className="absolute mt-[40px] bottom-[0%] left-0 right-0 z-[2] mx-auto flex flex-1 flex-col gap-[120px] md:gap-[90px] sm:gap-[60px]">
             <Text
               as="p"
               className="!font-poppins text-[25px] font-normal leading-8 tracking-[-0.75px] md:text-[23px] sm:text-[21px]"
@@ -61,10 +61,11 @@ export default function ProfNIITToolsSection() {
         <Heading
           size="heading3xl"
           as="h1"
-          className="absolute left-0 top-[8%] z-[3] m-auto !font-poppins text-[50px] font-semibold md:text-[46px] sm:text-[40px]"
+          className="absolute left-30 top-[8%] z-[3] m-auto !font-poppins text-[50px] font-semibold md:text-[46px] sm:text-[40px]"
         >
           <span className="text-white-0">Prof</span>
-          <span className="text-pink-300">NITT Tools</span>
+          <span className="text-pink-500">NITT </span>
+          <span className="text-white-0">Tools</span>
         </Heading>
         <div className="rounded-[82px] bg-gradient3 p-[22px] sm:p-5">
           <div className="mr-[38px] flex gap-[46px] md:mr-0 md:flex-col">

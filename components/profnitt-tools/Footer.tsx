@@ -24,13 +24,13 @@ export default function Footer({ ...props }: Props) {
             <Heading 
               size="headings"
               as="h4"
-              className="ml-1 font-poppins text-[24px] font-semibold text-white-0 md:ml-0 md:text-[22px]"
+              className="ml-[100px] font-poppins text-[24px] font-semibold text-white-0 md:ml-0 md:text-[22px]"
             >
               ProfNIITT TOOLS
             </Heading>
-            <div className="flex items-center gap-[30px] self-stretch sm:flex-col">
-              <div className="flex flex-1 gap-2.5 sm:self-stretch">
-                <Img src="img_settings.svg" width={14} height={30} alt="Settings" className="h-[30px]" />
+            <div className="ml-[100px] flex items-center gap-[30px] self-stretch sm:flex-col">
+              <div className="flex gap-2">
+                <Img src="img_set.png" width={25} height={7} alt="Settings" className="h-[30px]" />
                 <Heading
                   size="body_bold_18px"
                   as="h6"
@@ -69,13 +69,13 @@ export default function Footer({ ...props }: Props) {
                 variant="fill"
                 colorScheme="blue_gray_900_03"
                 placeholder="Email Address"
-                className="flex-grow rounded-[14px] px-[30px] font-poppins sm:px-5"
+                className="flex-grow rounded-[14px] px-[30px] py-[20px] font-poppins sm:px-5 bg-[#333333]"
               />
               <Button
                 size="sm"
                 // variant="fill"
                 // colorScheme="deep_purple_100"
-                className="w-full min-w-[174px] max-w-[174px] rounded-[14px] px-[34px] font-poppins sm:px-5"
+                className="w-full min-w-[174px] max-w-[174px] rounded-[14px] px-[34px] font-poppins sm:px-5 bg-gradient"
               >
                 Send
               </Button>

@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import {
   Dialog,
@@ -22,9 +24,13 @@ export default function LoginModal() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button>Getting start</Button>
+        <Button
+        shape="round"
+        // colorScheme="indigo_300_indigo_100"
+        className="w-full min-w-[154px] max-w-[154px] rounded-[24px] px-[34px] font-bold sm:px-5 bg-gradient-to-r from-indigo-300 to-indigo-100"
+        >Getting start</Button>
       </DialogTrigger>
-      <DialogContent>
+      <DialogContent className="bg-white-0 rounded-[20px] p-10">
         <DialogHeader>
           <DialogTitle className="text-2xl">Welcome to ProfNITT</DialogTitle>
           <DialogDescription>
@@ -33,7 +39,7 @@ export default function LoginModal() {
         </DialogHeader>
         <Button variant="outline" onClick={handleGoogleLogin}>
           <Image
-            src="google.png"
+            src="/images/google.png"
             className=" mr-4"
             width={25}
             height={25}
